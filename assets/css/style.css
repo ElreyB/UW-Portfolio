@@ -74,6 +74,12 @@ main h1 {
   color: #4aaaa5;
 }
 
+hr {
+  background-color: #dedede;
+  border: 0;
+  height: 2px;
+}
+
 footer {
   display: flex;
   align-items: center;
