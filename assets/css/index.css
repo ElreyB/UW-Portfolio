@@ -1,0 +1,9 @@
+picture {
+  display: flex;
+  justify-content: center;
+}
+
+img#headshot {
+  max-width: 30%;
+  height: auto;
+}

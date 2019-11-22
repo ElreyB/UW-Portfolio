@@ -74,16 +74,6 @@ main h1 {
   color: #4aaaa5;
 }
 
-picture {
-  display: flex;
-  justify-content: center;
-}
-
-img#headshot {
-  max-width: 30%;
-  height: auto;
-}
-
 footer {
   display: flex;
   align-items: center;
