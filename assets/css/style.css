@@ -1,0 +1,35 @@
+body {
+  color: #777777;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  background-color: #ffffff;
+  border-bottom: 2px solid #cccccc;
+}
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.brand {
+  background-color: #4aaaa5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 22px;
+}
+
+.brand a {
+  font-size: 24px;
+  color: white;
+}
+
+footer {
+  background-color: #666666;
+}
