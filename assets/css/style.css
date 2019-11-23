@@ -55,12 +55,12 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 22px;
 }
 
 .brand a {
   font-size: 24px;
   color: #ffffff;
+  padding: 22px;
 }
 
 main {
