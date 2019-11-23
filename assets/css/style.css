@@ -22,10 +22,15 @@ main {
   flex: 1 0 auto;
 }
 
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
-  font-family: "Georgia", Times, "Times New Roman", serif;
   border-bottom: 2px solid #cccccc;
   max-height: 60px;
 }
@@ -70,7 +75,7 @@ li {
 main {
   border: 1px solid #dddddd;
   width: 960px;
-  margin: 35px auto;
+  margin: 90px auto 35px auto;
   padding: 25px;
 }
 
@@ -78,10 +83,25 @@ main h1 {
   color: #4aaaa5;
 }
 
+.brand,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Georgia", Times, "Times New Roman", serif;
+}
+
 hr {
   background-color: #dedede;
   border: 0;
   height: 2px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 footer {
