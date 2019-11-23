@@ -1,0 +1,34 @@
+hr {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin: 5px 0;
+}
+
+input {
+  width: 100%;
+  padding: 7px;
+  color: #777777;
+}
+
+textarea {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+input,
+textarea {
+  border: 1px solid #dedede;
+}
+
+button {
+  background-color: #4aaaa5;
+  border: 1px solid #4aaaa5;
+  padding: 5px;
+  min-width: 74px;
+  font-size: 16px;
+  color: #ffffff;
+}
