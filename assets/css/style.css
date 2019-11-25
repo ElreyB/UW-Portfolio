@@ -60,6 +60,8 @@ li:nth-last-of-type(1) {
 
 .nav-link {
   color: #777777;
+  padding-right: 7px;
+  padding-left: 7px;
 }
 
 a.brand {
@@ -126,6 +128,7 @@ footer {
 @media (max-width: 425px) {
   a.brand {
     font-size: 18px;
+    flex: 1;
   }
 
   h1,
